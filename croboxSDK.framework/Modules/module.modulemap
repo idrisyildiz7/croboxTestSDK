@@ -1,6 +1,0 @@
-framework module croboxSDK {
-  umbrella header "croboxsdk.h"
-  export *
-
-  module * { export * }
-}

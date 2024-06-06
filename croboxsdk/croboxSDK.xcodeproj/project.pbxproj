@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050DB28A2C049A0B00116646 /* RequestQueryParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050DB2892C049A0B00116646 /* RequestQueryParams.swift */; };
+		054180262BFF65B2006BEF60 /* CroboxAPIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054180252BFF65B2006BEF60 /* CroboxAPIServices.swift */; };
+		054180292BFF65E7006BEF60 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054180282BFF65E7006BEF60 /* APIRequests.swift */; };
+		0541803E2BFF833E006BEF60 /* CroboxDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0541803D2BFF833E006BEF60 /* CroboxDebug.swift */; };
+		055047E22BFDEB4F000D5DD4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055047E12BFDEB4F000D5DD4 /* Constant.swift */; };
+		055047E42BFDEB6E000D5DD4 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055047E32BFDEB6E000D5DD4 /* Preferences.swift */; };
+		055047E62BFDEBC1000D5DD4 /* Crobox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055047E52BFDEBC1000D5DD4 /* Crobox.swift */; };
+		057861272BFCE87300C90824 /* croboxsdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 057861262BFCE87300C90824 /* croboxsdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05CA6B712C00916E00257E41 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B702C00916E00257E41 /* ItemModel.swift */; };
+		05CA6B752C00B65200257E41 /* LocaleCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B742C00B65200257E41 /* LocaleCode.swift */; };
+		05CA6B782C00DD2900257E41 /* PromotionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B772C00DD2900257E41 /* PromotionResponse.swift */; };
+		05CA6B7A2C00DD3D00257E41 /* PromotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B792C00DD3D00257E41 /* PromotionContext.swift */; };
+		05CA6B7C2C00DD4B00257E41 /* Experiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B7B2C00DD4B00257E41 /* Experiment.swift */; };
+		05CA6B7E2C00DD5900257E41 /* Promotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B7D2C00DD5900257E41 /* Promotion.swift */; };
+		05CA6B812C00DD8600257E41 /* PromotionContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B802C00DD8600257E41 /* PromotionContent.swift */; };
+		05CA6B832C00DD9300257E41 /* PromotionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA6B822C00DD9300257E41 /* PromotionConfig.swift */; };
+		BA86D95F18DE9730FCFA5015 /* Pods_croboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6ABC54CC061594F2CC1C11 /* Pods_croboxSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050DB2892C049A0B00116646 /* RequestQueryParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestQueryParams.swift; sourceTree = "<group>"; };
+		054180252BFF65B2006BEF60 /* CroboxAPIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroboxAPIServices.swift; sourceTree = "<group>"; };
+		054180282BFF65E7006BEF60 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		0541803D2BFF833E006BEF60 /* CroboxDebug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CroboxDebug.swift; sourceTree = "<group>"; };
+		055047E12BFDEB4F000D5DD4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		055047E32BFDEB6E000D5DD4 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		055047E52BFDEBC1000D5DD4 /* Crobox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crobox.swift; sourceTree = "<group>"; };
+		057861232BFCE87300C90824 /* croboxSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = croboxSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		057861262BFCE87300C90824 /* croboxsdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = croboxsdk.h; sourceTree = "<group>"; };
+		05CA6B702C00916E00257E41 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		05CA6B742C00B65200257E41 /* LocaleCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleCode.swift; sourceTree = "<group>"; };
+		05CA6B772C00DD2900257E41 /* PromotionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionResponse.swift; sourceTree = "<group>"; };
+		05CA6B792C00DD3D00257E41 /* PromotionContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionContext.swift; sourceTree = "<group>"; };
+		05CA6B7B2C00DD4B00257E41 /* Experiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experiment.swift; sourceTree = "<group>"; };
+		05CA6B7D2C00DD5900257E41 /* Promotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotion.swift; sourceTree = "<group>"; };
+		05CA6B802C00DD8600257E41 /* PromotionContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionContent.swift; sourceTree = "<group>"; };
+		05CA6B822C00DD9300257E41 /* PromotionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionConfig.swift; sourceTree = "<group>"; };
+		A2837CB91856F3F567B03E97 /* Pods-croboxSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-croboxSDK.debug.xcconfig"; path = "Target Support Files/Pods-croboxSDK/Pods-croboxSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		AC2B7C76247CF12A4E3658BC /* Pods-croboxSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-croboxSDK.release.xcconfig"; path = "Target Support Files/Pods-croboxSDK/Pods-croboxSDK.release.xcconfig"; sourceTree = "<group>"; };
+		BF6ABC54CC061594F2CC1C11 /* Pods_croboxSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_croboxSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		057861202BFCE87300C90824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA86D95F18DE9730FCFA5015 /* Pods_croboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0541801F2BFF34CD006BEF60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				050DB2892C049A0B00116646 /* RequestQueryParams.swift */,
+				05CA6B702C00916E00257E41 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		054180202BFF34D7006BEF60 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05CA6B762C00DA5400257E41 /* PromotionsResponse */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		054180272BFF65CD006BEF60 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				054180282BFF65E7006BEF60 /* APIRequests.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0541803C2BFF8328006BEF60 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0541803D2BFF833E006BEF60 /* CroboxDebug.swift */,
+				05CA6B742C00B65200257E41 /* LocaleCode.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		055047DC2BFDEAD4000D5DD4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0541803C2BFF8328006BEF60 /* Utils */,
+				055047E12BFDEB4F000D5DD4 /* Constant.swift */,
+				055047E32BFDEB6E000D5DD4 /* Preferences.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		055047DD2BFDEAE1000D5DD4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				055047E52BFDEBC1000D5DD4 /* Crobox.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		055047DE2BFDEAE9000D5DD4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0541801F2BFF34CD006BEF60 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		055047DF2BFDEAF6000D5DD4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				054180272BFF65CD006BEF60 /* API */,
+				054180202BFF34D7006BEF60 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		055047E02BFDEAFD000D5DD4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				054180252BFF65B2006BEF60 /* CroboxAPIServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		057861192BFCE87300C90824 = {
+			isa = PBXGroup;
+			children = (
+				057861252BFCE87300C90824 /* croboxSDK */,
+				057861242BFCE87300C90824 /* Products */,
+				44142FFD4A6E8FC50EDD7489 /* Pods */,
+				66A1948233B454AB0F78E49F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		057861242BFCE87300C90824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				057861232BFCE87300C90824 /* croboxSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		057861252BFCE87300C90824 /* croboxSDK */ = {
+			isa = PBXGroup;
+			children = (
+				055047E02BFDEAFD000D5DD4 /* Services */,
+				055047DF2BFDEAF6000D5DD4 /* Domain */,
+				055047DE2BFDEAE9000D5DD4 /* Data */,
+				055047DD2BFDEAE1000D5DD4 /* Core */,
+				055047DC2BFDEAD4000D5DD4 /* Common */,
+				057861262BFCE87300C90824 /* croboxsdk.h */,
+			);
+			path = croboxSDK;
+			sourceTree = "<group>";
+		};
+		05CA6B762C00DA5400257E41 /* PromotionsResponse */ = {
+			isa = PBXGroup;
+			children = (
+				05CA6B772C00DD2900257E41 /* PromotionResponse.swift */,
+				05CA6B792C00DD3D00257E41 /* PromotionContext.swift */,
+				05CA6B7B2C00DD4B00257E41 /* Experiment.swift */,
+				05CA6B7D2C00DD5900257E41 /* Promotion.swift */,
+				05CA6B802C00DD8600257E41 /* PromotionContent.swift */,
+				05CA6B822C00DD9300257E41 /* PromotionConfig.swift */,
+			);
+			path = PromotionsResponse;
+			sourceTree = "<group>";
+		};
+		44142FFD4A6E8FC50EDD7489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2837CB91856F3F567B03E97 /* Pods-croboxSDK.debug.xcconfig */,
+				AC2B7C76247CF12A4E3658BC /* Pods-croboxSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		66A1948233B454AB0F78E49F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6ABC54CC061594F2CC1C11 /* Pods_croboxSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0578611E2BFCE87300C90824 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				057861272BFCE87300C90824 /* croboxsdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		057861222BFCE87300C90824 /* croboxSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0578612A2BFCE87300C90824 /* Build configuration list for PBXNativeTarget "croboxSDK" */;
+			buildPhases = (
+				FB85B3E4C0487856CA50C03A /* [CP] Check Pods Manifest.lock */,
+				0578611E2BFCE87300C90824 /* Headers */,
+				0578611F2BFCE87300C90824 /* Sources */,
+				057861202BFCE87300C90824 /* Frameworks */,
+				057861212BFCE87300C90824 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = croboxSDK;
+			productName = croboxsdk;
+			productReference = 057861232BFCE87300C90824 /* croboxSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0578611A2BFCE87300C90824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					057861222BFCE87300C90824 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+				};
+			};
+			buildConfigurationList = 0578611D2BFCE87300C90824 /* Build configuration list for PBXProject "croboxSDK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 057861192BFCE87300C90824;
+			productRefGroup = 057861242BFCE87300C90824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				057861222BFCE87300C90824 /* croboxSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		057861212BFCE87300C90824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB85B3E4C0487856CA50C03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-croboxSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0578611F2BFCE87300C90824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050DB28A2C049A0B00116646 /* RequestQueryParams.swift in Sources */,
+				0541803E2BFF833E006BEF60 /* CroboxDebug.swift in Sources */,
+				05CA6B7E2C00DD5900257E41 /* Promotion.swift in Sources */,
+				05CA6B782C00DD2900257E41 /* PromotionResponse.swift in Sources */,
+				054180292BFF65E7006BEF60 /* APIRequests.swift in Sources */,
+				05CA6B832C00DD9300257E41 /* PromotionConfig.swift in Sources */,
+				05CA6B752C00B65200257E41 /* LocaleCode.swift in Sources */,
+				05CA6B712C00916E00257E41 /* ItemModel.swift in Sources */,
+				055047E62BFDEBC1000D5DD4 /* Crobox.swift in Sources */,
+				05CA6B812C00DD8600257E41 /* PromotionContent.swift in Sources */,
+				055047E42BFDEB6E000D5DD4 /* Preferences.swift in Sources */,
+				054180262BFF65B2006BEF60 /* CroboxAPIServices.swift in Sources */,
+				05CA6B7C2C00DD4B00257E41 /* Experiment.swift in Sources */,
+				05CA6B7A2C00DD3D00257E41 /* PromotionContext.swift in Sources */,
+				055047E22BFDEB4F000D5DD4 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		057861282BFCE87300C90824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		057861292BFCE87300C90824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0578612B2BFCE87300C90824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2837CB91856F3F567B03E97 /* Pods-croboxSDK.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 33X3Q66JZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crobox.sdk.croboxsdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		0578612C2BFCE87300C90824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2B7C76247CF12A4E3658BC /* Pods-croboxSDK.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 33X3Q66JZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.crobox.sdk.croboxsdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0578611D2BFCE87300C90824 /* Build configuration list for PBXProject "croboxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057861282BFCE87300C90824 /* Debug */,
+				057861292BFCE87300C90824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0578612A2BFCE87300C90824 /* Build configuration list for PBXNativeTarget "croboxSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0578612B2BFCE87300C90824 /* Debug */,
+				0578612C2BFCE87300C90824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0578611A2BFCE87300C90824 /* Project object */;
+}
